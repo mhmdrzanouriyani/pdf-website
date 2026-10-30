@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('https://cdn.jsdelivr.net/fontsource/fonts/geist-sans:vf@latest/latin-wght-normal.woff2')
+    format('woff2-variations');
+}
+
+:root {
+  --bg: #f4f3ef;
+  --bg-warm: #ebe8e1;
+  --surface: #ffffff;
+  --text: #0f0f0f;
+  --text-2: #5c5954;
+  --text-3: #8b8680;
+  --border: #e4e1d9;
+  --border-strong: #d2cec5;
+  --cta: #111111;
+  --cta-hover: #2a2a2a;
+  --pink: #e11d48;
+  --purple: #7c3aed;
+  --blue: #2563eb;
+  --ai: linear-gradient(120deg, #e11d48, #7c3aed, #2563eb);
+  --shadow: 0 24px 60px -36px rgba(17, 17, 17, 0.22);
+  --shadow-soft: 0 8px 24px -20px rgba(17, 17, 17, 0.16);
+  --radius: 16px;
+  --radius-sm: 12px;
+  --nav-h: 64px;
+  --max: 1180px;
+  --font: Geist, Inter, ui-sans-serif, system-ui, sans-serif;
+}
