@@ -65,6 +65,7 @@ const apiPort = Number(process.env.PDFLY_API_PORT ?? 8787)
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/pdf-website/',
   plugins: [react(), staticAssets()],
   server: {
     host: '127.0.0.1',
